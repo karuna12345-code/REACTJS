@@ -22,6 +22,7 @@ const Index=()=>{
                 <th className="px-6 py-4">Address</th>
                 <th className="px-6 py-4">Faculty</th>
                 <th className="px-6 py-4 text-center">Action</th>
+                <link rel="stylesheet" href="style.css" />
               </tr>
             </thead>
             <tbody>

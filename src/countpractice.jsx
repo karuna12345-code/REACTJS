@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import React  from "react"
 
-const countpractice=()=>{
+const CountPractice=()=>{
   // useEffect
   useEffect(()=> {
     console.log("Button Clicked")
@@ -18,9 +18,15 @@ return(
   <h2 class='text-2xl'>{count}</h2>
   <button onClick={()=>setCount(count-1)} class="px-3 py-3 bg-amber-200 rounded-1.5xl">Decrease</button>
   </div>
+  <div>
+    <link to="/about">Go to About</link>
+  </div>
   </>
+
+
+
 )
 }
-export default countpractice
+export default CountPractice
 
 //useState, useEffect

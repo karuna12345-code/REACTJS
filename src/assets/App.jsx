@@ -1,7 +1,8 @@
 import React  from "react"
-import { BrowserRouter, Route, Router } from "react-router-dom"
-import countpractice from "../countpractice"
-
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import CountPractice from "../countpractice"
+import About from "./pages/about"
+import Index from "./pages"
 
 const App =()=>{
 
@@ -9,8 +10,9 @@ return(
     <>
     <BrowserRouter>
     <Routes>
-        <Route path='/' element={<countpractice/>}/>
-        <Route path='/index' element={<index/>}/>
+        <Route path='/' element={<CountPractice/>}/>
+        <Route path='/index' element={<Index/>}/>
+        <Route path='/about' element={<About/>}/>
     </Routes>
     </BrowserRouter>
     </>
